@@ -1,0 +1,139 @@
+[Index]
+{
+git status,   1.
+git init,     2.
+git add,      3.
+git commit,   4.
+git log,      5.
+git push,     6.
+git config,   7.
+git remote,   8.
+git tag,      9.
+git clone,    10.
+git pull,     11.
+
+git branch,   12.
+git checkout, 13.
+git merge,    14.
+}
+
+Primero abre la consola en ubicacion de la carpeta que quieres manejar con git.
+
+{tip: cd carpetaA/carpetaB/misArchivos, o simplemente click derecho sobre la carpeta "Abrir en termina/consola"}
+
+
+
+[1]. ---------- Utilizas {git status} para ver si la carpeta ya esta en git ----------
+
+{tip: las carpetas que esten en git tendran una carpeta oculta denominada ".git"}
+
+
+
+[2]. ---------- Al no estar utilizando git, tienes que iniciarlo {git init} ----------
+
+{tip: para verificar que funciono utiliza [git status] y deberian aparecer los archivos nuevos en rojo}
+
+
+
+[3]. ---------- Con {git status} se pueden ver los cambios, para anadirlos utiliza {git add} ----------
+
+{tip: puedes anadir un cambio especifico [git add nombreArchivo], pero para hacerlo automatico [git add .] anade todos los nuevos cambios}
+
+{tip2: puedes revisar que archivo fue guardado con [git status], si los archivos se muestran en verde, es que fueron anadidos exitosamente (para los daltonicos sale en amarillo oscuro)}
+
+{Warning: [git add] solo anade los posibles cambios a guardar. No los guarda por si solo. Ve a la seccion "4." para ver como guardar cambios XD}
+
+
+
+[4]. ---------- Para guardar los cambios hechos utiliza [git commit -m "mensaje"] ----------
+
+{tip: los cambios hechos por un commit se guardan solo en tu carpeta local [.git], para saber como subir tus cambios a un repositorio (github, gitlab, etc...) ve al apartado 6.}
+
+{ATTENTION: no podras hacer commit sin configurar el usuario de git(muestra que persona hizo el cambio), ve a la parte 7. para ver como configurar xD}
+
+{Warning: al hacer commit se revertiran a su ultimo estado los cambios no anadidos con [git add]}
+
+{Warning2: no te olvides de hacer el commit, te lo digo. Sobre todo si es el pc del instituto que se resetea}
+
+
+
+[5]. ---------- Para ver la lista de todos tus commits realizados a lo largo del projecto [git log] ----------
+
+{ATTENTION: Con esto puedes ver los tags(9.) y el codigo de los commits en caso de que quieras volver a cierto commit}
+
+
+
+[6]. ---------- Para subir tus cambios a un repositorio online se utiliza [git push -u nombreRepositorioOnline branchASubir] ----------
+
+{ATTENTION: el "-u" es importante, aunque no se que significa xD}
+
+{tip: el "nombreRepositorioOnline"(es el link del proyecto que creas en la web gitlab/github) puedes decirle con un comando que se guarde con un nombre para no tener que copiarlo y pegarlo siempre, esta en la opcion 8.}
+
+{Warning: no te olvides de hacer el push xD, que si se guardan los cambios pero solo en la carpeta local}
+
+
+
+[7]. ---------- Para configurar el usuario utilizamos [git config --global user.email "email"] y [git config --global user.name "Nombre"] ----------
+
+{ATTENTION: Una vez se configura de esta manera, no habra que hacerlo mas; a no ser que estes en otra pc, o que se reinicie como las del instituto xD}
+
+{tip: no hay tips para esto xD}
+
+
+
+[8]. ---------- Guardar el link del repositorio online es facil, [git remote add nombreQueleQuierasPoner linkDelRepositorio] ----------
+
+{ATTENTION: Ya con esto se queda guardado en el .git, y a la hora de subirlo simplemente usas el nombre en lugar del link 
+[git push -u nombreQueleQuierasPoner branchASubir]}
+
+
+
+[9]. ---------- Tags, totalmente opcionales. Sirven para asignar "nombres" o "versiones" a tus commits [git tag -a "version" digitosInicialesDeUnCommit] ----------
+
+{tips: [git tag -l "formatoDeVersion"} te deja buscar tags con formato especifico. [git tag] te muestra todos los tags.}
+
+{ATTENTION: "digitosInicialesDeUnCommit" se pueden ver en [git log], es como un codigo largo "a6b4c97498bd301d84...", pero con solos los primeros sirve "a6b4c"}
+
+{Warning: los tags no se suben automaticamente con el [git push] tienes que subirlos manualmente con [git push repositorioOnline --tags] para todos los tags 
+[git push repositorioOnline "tag"] para uno en especifico}
+
+
+
+[10]. ---------- Y bueno para bajar el proyecto [git clone linkRepositorioOnline], crea una copia del proyecto (Mucho mas rapido que bajar del drive :D) ----------
+
+
+
+[11]. ---------- En el caso que ya tengas el una version del proyecto puedes utilizar [git pull linkDelProyecto] y te actualizara todos los cambios ----------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TIPS GENERALES {Archivo ".gitignore" funciona para que git detecte archivos innecesarios y no los agregue. 
+		Simplemente escribes dentro de el lo que quieres que ignore o lo que no quieres que ignore.}
+
+	       {Tambien puedes copiar el basico de google buscando por ejemplo ".gitignore intellij" y pones ese .gitignore en tu carpeta}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+							A partir de aqui son utilizados para trabajar en equipo:
+						---------------------------------------------------------------------
+
+[12]. ---------- Branches, es crear una copia interna del proyecto para trabajar sin afectar la principal [git branch "nombreBranch"] ----------
+
+{tip: para verificar que fue creada utiliza [git branch] y deberia mostrar la principal [master/main] y la que creastes}
+
+
+
+[13]. ---------- Para empezsar a trabajar en ella utilizas [git checkout "nombre branch"] ----------
+
+{tip: [git branc] te dice el cual te encuentras}
+
+{ATTENTION: Recuerda subir la branch si es que estas trabajando con ella, apartado 6.}
+
+
+
+[14]. ---------- Una vez que tengas tus cambios listos te ubicas en una de las branches que quieres juntar y [git merge "nombreOtraBranch"] ----------
+
+{Warning: si se dividieron bien las partes deberia juntarse tranquilamente el proyecto, sino... Toca reparar los errores de xD}
+
+
+YA SABES TODO LO QUE SE DE GIT WOOH!!!
