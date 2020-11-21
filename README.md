@@ -1,16 +1,16 @@
-### 😃 Hello, Ricardo here! - aka [Rontero][website] 👋😊 
+### 👋😊 Hello, Ricardo here! - [See My Progress][website] 
 
 [![Website](https://avatars0.githubusercontent.com/u/67873850?s=460&u=6e25a22533bdc0eb246dd75319747515e7b01b88&v=4)](https://ricardodeveloper.netlify.app)
 
-## I'm a Game Developer, App Developer and sometimes even Front-end Developer
+## I'm a Game Developer, App Developer and sometimes even Front/back-end Developer
 
 - 🔥 I just published another game! [Pink Is Good](https://rontero.itch.io/pinkisgood)
-- 🔰 I’m currently mastering Apk Development.
-- 🚀I’m looking to work with a Game Development Team.
-- 🥅2020 Goal: Survive.
-- 🎧Fun facts: I love making my own music, since I can play some instruments!
+- 🔰 I’m currently studying Apk Development on an Institute in Barcelona.
+- 🚀I’m part time working with a cool Indie Games Company called Petoons.
+- 🥅2021 Goal: Make many more games, apps and automatization tools.
+- 🎧Extra Facts: I love making my own music, since I can play some instruments!
 
-> Even though all my games aren't published, you can find them in here!
+> Even though not all my games are published, you can find them in here!
 
 ### Connect with me:
 
@@ -20,7 +20,7 @@
 
 <br />
 
-### Check out my last games:
+### Check out my latest games:
 
 <a href="https://gamejolt.com/@RicardoMontserrat/library"><img align="left" style="margin-right: 15px; margin-top: 15px" alt="Unity" width="120px" src="gamejolt.svg" /></a>
 <a href="https://rontero.itch.io/"><img style="margin-right: 15px" alt="Unity" width="40px" src="itch.io.png" /></a>
