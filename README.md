@@ -4,10 +4,11 @@
 
 ## I'm a Game Developer, App Developer and sometimes even Front/back-end Developer
 
-- 🔥 I just published another game! [Pink Is Good](https://rontero.itch.io/pinkisgood)
-- 🔰 I’m currently studying Apk Development on an Institute in Barcelona.
-- 🚀I’m part time working with a cool Indie Games Company called Petoons.
-- 🥅2021 Goal: Make many more games, apps and automatization tools.
+- 🔥 Cool new demo of a 2d Platformer Puzzle Game! [BOB](https://rontero.itch.io/bob)
+- 🔰 I’m currently studying Apk Development at the Barcelona's Technologic Institut.
+- 🚀I’m also working part time with a cool Indie Games Company called [Petoons](https://www.petoons.com/).
+- 🥅2021 Goal: Make way more quality games, apps and automatization tools.
+
 - 🎧Extra Facts: I love making my own music, since I can play some instruments!
 
 > Even though not all my games are published, you can find them in here!
